@@ -15,7 +15,7 @@ import java.util.List;
 public class MergeSort extends Sorter {
 
     public MergeSort(List<Integer> data) {
-        super(data);
+        super("Merge Sort", data);
     }
 
     @Override

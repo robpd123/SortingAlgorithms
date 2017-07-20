@@ -14,7 +14,7 @@ import java.util.List;
 public class BubbleSort extends Sorter {
 
     public BubbleSort(List<Integer> data) {
-        super(data);
+        super("Bubble Sort",data);
     }
 
     @Override
